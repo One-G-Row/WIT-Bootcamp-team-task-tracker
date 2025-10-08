@@ -189,6 +189,12 @@ margin: 1rem 10%;
     transform: scale(1.05, 1.05);
 }
 
+@media(min-width: 1024px) and (max-width: 1280px){
+    .task-card{
+    width: 300px;
+    font-size: 18pt;
+    }
+}
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
